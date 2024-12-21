@@ -1,8 +1,8 @@
 #!/bin/bash
 # To build, either place the IPA file in the project's root directory, or get the path to the IPA, then run `./build.sh`
 
-read -p $'\e[34m==> \e[1;39mPath to the decrypted YouTube.ipa or YouTube.app. If nothing is provied, any ipa/app in the project\'s root directory will be used: ' PATHTOYT
-
+# read -p $'\e[34m==> \e[1;39mPath to the decrypted YouTube.ipa or YouTube.app. If nothing is provied, any ipa/app in the project\'s root directory will be used: ' PATHTOYT
+read -p $https://armconverter.com/decryptedappstore/download/544007664/com.google.ios.youtube/19.49.7?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjExNjk0ODU5LCJpYXQiOjE3MzQ3NzY3NzAsImV4cCI6MTczNDc4NzU3MCwiYXBwaWQiOjU0NDAwNzY2NCwiYXBwdmVyIjoiMTkuNDkuNyJ9._ShosJsT9rXfGiHQjKGx6D4inMcYiAJsWSc60yIeqxk
 # Check if PATHTOYT is empty
 if [ -z "$PATHTOYT" ]; then
     # Look for ipa/app files in the current directory
